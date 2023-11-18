@@ -34,6 +34,7 @@ body {
     color: #fff;
     font-size: var(--pFontSizeDesktop);
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .gracias__img {

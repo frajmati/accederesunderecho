@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --h2FontSizeDesktop: 48px;
     --pFontSizeDesktop: 22px;
