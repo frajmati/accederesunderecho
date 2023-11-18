@@ -1,0 +1,92 @@
+:root {
+    --h2FontSizeDesktop: 48px;
+    --pFontSizeDesktop: 22px;
+    --h2FontSizeMobile: 38px;
+    --pFontSizeMobile: 18px;
+    --gradiente: rgba(0,0,0,.1);
+}
+
+/* ________________________________________________________________________________ */
+
+/* EQUIPO */
+
+
+.proyecto__s {
+    margin-top: 135px;
+    min-height: 60vh;
+    display: flex;
+}
+
+.proyecto__img {
+    width: 50%;
+}
+
+.proyectoImg {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.proyecto__text {
+    color: #413ADA;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 50%;
+}
+
+.proyecto--h2 {
+    font-size: var(--h2FontSizeDesktop);
+    text-align: center;
+}
+
+.proyecto--p  {
+    font-size: var(--pFontSizeDesktop);
+    line-height: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .proyecto--h2  {
+        font-size: var(--h2FontSizeMobile);
+    }
+    .proyecto--p {
+        font-size: var(--pFontSizeMobile);
+        width: 100%;
+    }
+    .proyecto__s {
+        flex-direction: column;
+    }
+    .proyecto__img {
+        height: 40vh;
+    }
+    .proyecto__img, .proyecto__text {
+        width: 100%;
+    }
+    .proyecto__text {
+        gap: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

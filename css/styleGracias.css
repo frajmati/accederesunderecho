@@ -1,0 +1,57 @@
+:root {
+    --h2FontSizeDesktop: 48px;
+    --pFontSizeDesktop: 22px;
+    --h2FontSizeMobile: 38px;
+    --pFontSizeMobile: 18px;
+    --gradiente: rgba(0,0,0,.1);
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.mainGracias {
+    color: #413ADA;
+    padding: 10px;
+}
+
+.gracias__h2 {
+    font-size: var(--h2FontSizeDesktop);
+    margin-bottom: 20px;
+}
+
+.gracias__p {
+    font-size: var(--pFontSizeDesktop);
+}
+
+.gracias__btn {
+    display: inline-block;
+    padding: 16px 40px;
+    margin-top: 5px;
+    background-color: #413ADA;
+    width: auto;
+    color: #fff;
+    font-size: var(--pFontSizeDesktop);
+    border-radius: 10px;
+}
+
+.gracias__img {
+    width: 240px;
+}
+
+@media screen and (max-width: 900px) {
+    .gracias__h2 {
+        font-size: var(--h2FontSizeMobile);
+        margin-bottom: 20px;
+    }
+    
+    .gracias__p {
+        font-size: var(--pFontSizeMobile);
+    }
+
+    .gracias__btn {
+        font-size: var(--pFontSizeMobile);
+    }
+    
+}

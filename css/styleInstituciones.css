@@ -1,0 +1,202 @@
+:root {
+    --imageHeight: 100px;
+    --azulLogo: #1972B7;
+    --azulBackground: #4c7dad;
+    --sombra: 5px 0px 15px 0px rgb(0, 0, 0, .4);
+    --h2FontSize: 60px;
+    --pFontSize: 18px;
+    --gradiente: rgba(0,0,0,.4);
+}
+
+/* ________________________________________________________________________________ */
+
+/* PRINCIPAL */
+
+
+
+.instituciones {
+    background-color: #fff;
+    line-height: 42px;
+    padding: 10px;
+    background-color: var(--azulBackground);
+    color: #fff;
+}
+
+.instituciones__h2 {
+    padding: 10px 0;
+    font-size: var(--h2FontSize);
+}
+
+.instituciones__p {
+    font-size: var(--pFontSize);
+}
+
+.instituciones__ul {
+    margin-left: 30px;
+    list-style-type: disc;
+    font-size: var(--pFontSize);
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-1 {
+    background-image: linear-gradient(var(--gradiente), var(--gradiente)), url(../img/fotos/PII\ -\ 1.jpg);
+}
+
+.img-2 {
+    background-image: linear-gradient(var(--gradiente), var(--gradiente)), url(../img/fotos/PII\ -\ 2.jpg);
+}
+
+.img-3 {
+    background-image: linear-gradient(var(--gradiente), var(--gradiente)), url(../img/fotos/PII\ -\ 3.jpg);
+}
+
+.img-4 {
+    background-image: linear-gradient(var(--gradiente), var(--gradiente)), url(../img/fotos/PII\ -\ 4.jpg);
+}
+
+.img-5 {
+    background-image: linear-gradient(var(--gradiente), var(--gradiente)), url(../img/fotos/PII\ -\ 5.jpg);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    color: #fff;
+}
+
+.slider-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.textContainer {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: var(--pFontSize);
+}
+
+.swiper-slide-active h3 {
+    animation: fadeInUp 1s;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    visibility: hidden;
+}
+
+.swiper {
+    height: 300px;
+    width: 100%;
+}
+
+@media screen and (min-width: 530px){
+    .swiper {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 680px){
+    .swiper {
+        height: 500px;
+    }
+}
+
+
+@media screen and (min-width: 850px){
+    .img-1{
+        background-position-y: -50px;
+    }
+    .img-2{
+        background-position-y: -85px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        visibility: visible;
+        background-color: #fff;
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .img-1{
+        background-position-y: -80px;
+    }
+    .img-2{
+        background-position-y: -85px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .img-1{
+        background-position-y: -130px;
+    }
+    .img-2{
+        background-position-y: -180px;
+    }
+}
+
+.instituciones__cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.instituciones__card {
+    width: 400px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px 0px rgb(255, 255, 255, 1); */
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.cardText {
+    margin-top: -120px;
+    padding: 20px 10px;
+}
+
+.card__institucionesTitle {
+    font-weight: 700;
+    font-size: 30px;
+    transition: .4s;
+    color: #000;
+}
+
+.card__institucionesP {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 14px;
+    color: rgba(0, 0, 0, .9);
+}
+
+.card__institucionesImg {
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    clip-path: circle(60% at 50% 0);
+    background-position-y: -160px;
+    background-repeat: no-repeat;
+    background-image: url(../img/facultadEducacion.jpg);
+}
+
+.card:nth-child(1):hover .card__title {
+    color: #315D91;
+}
+
+.card:nth-child(2) {
+    border-top-color: #EA5353;
+}
+
+.card:nth-child(3) {
+    border-top-color: #45D3D3;
+}
+
+.card:nth-child(3):hover .p__finalidad {
+    background-color: #a1eded;
+}

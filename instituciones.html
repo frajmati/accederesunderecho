@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styleGeneral.css">
+    <link rel="stylesheet" href="css/styleInstituciones.css">
+    
+    <script src="js/scriptGeneral.js" defer></script>
+    
+    
+    <link rel="shortcut icon" href="img/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/5fd694ccbe.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.userway.org/widget.js" data-account="ngDnNMAJfg"></script>
+    <title>Acceder es un derecho | Instituciones</title>
+</head>
+<body>
+
+
+    <button class="btn__scrollToTop" aria-label="Navegar hasta la parte superior de la página">
+        <i class="fa-solid fa-arrow-up iconScroll"></i>
+    </button>
+
+    <header class="header">
+        <a href="index.html" aria-label="Ir al inicio de la página">
+            <img src="img/logo.svg" class="header__img" alt="Logo del sitio web">
+        </a>
+
+        <nav class="nav__desktop">
+            <ul class="nav__ul--desktop">
+                <li class="nav__li">
+                    <a href="proyecto.html" class="nav__li--a">Proyecto</a>
+                </li>
+                <li class="nav__li">
+                    <a href="instituciones.html" class="nav__li--a">Instituciones</a>
+                </li>
+                <li class="nav__li">
+                    <a href="equipo.html" class="nav__li--a">Equipo</a>
+                </li>
+                <li class="nav__li">
+                    <a href="recursos.html" class="nav__li--a">Recursos</a>
+                </li>
+                <li class="nav__li">
+                    <a href="contacto.html" class="nav__li--a">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <button class="container__menuIcon" aria-label="Menú para navegar en los links">
+            <i class="fa-solid fa-bars" id="menuIcon"></i>
+        </button>
+        
+    </header>
+
+    <nav class="nav__mobile">
+        <button class="container__markIcon" aria-label="Salir del menú de navegación">
+            <i class="fa-solid fa-xmark" id="markIcon"></i>
+        </button>
+        <ul class="nav__ul--mobile">
+            <li class="nav__li"><a href="proyecto.html" class="nav__li--a" tabindex="-1">Proyecto</a></li>
+            <li class="nav__li"><a href="instituciones.html" class="nav__li--a" tabindex="-1">Instituciones</a></li>
+            <li class="nav__li"><a href="equipo.html" class="nav__li--a" tabindex="-1">Equipo</a></li>
+            <li class="nav__li"><a href="recursos.html" class="nav__li--a" tabindex="-1">Recursos</a></li>
+            <li class="nav__li"><a href="contacto.html" class="nav__li--a" tabindex="-1">Contacto</a></li>
+        </ul>
+        
+    </nav>
+
+
+    
+    
+
+   
+    <section class="instituciones">
+        <h1 class="instituciones__h2" id="proyecto">Instituciones</h1>
+        <p class="instituciones__p">Las instituciones que trabajan articuladamente en el proyecto son:</p>
+        <ul class="instituciones__ul">
+            <li class="instituciones__li">
+                <u>Facultad de Educación:</u> a través de la secretaría de Extensión que coordina la propuesta, su Programa EBA (Ecosistema Bimodal de Aprendizaje) y el espacio curricular "Tecnología Digital en las prácticas escolares”.
+            </li>
+            <li class="instituciones__li">
+                <u>Escuela N° 4-020 Ingeniero Gabriel del Mazo:</u> se destaca por su capacidad para adaptar dispositivos electrónicos como parte de la formación de futuros técnicos. Esto otorga a los estudiantes una visión integral del mundo laboral y les permite desarrollar habilidades técnicas prácticas relacionadas con la tecnología de apoyo.
+            </li>
+            <li class="instituciones__li">
+                <u>Escuela de Comercio Martín Zapata:</u> trabaja en la creación de contenido accesible para la web, como una extensión extraescolar del espacio curricular orientado “Proyecto de Investigación en Informática”. En este marco de trabaja en la creación y actualización de un sitio web considerando aspectos de accesibilidad creciente para los contenidos digitales; además de canales y redes sociales para asegurar la difusión del avance del proyecto; elementos gráficos, entre otras piezas digitales.
+            </li>
+            <li class="instituciones__li">
+                <u>Institución Terapéutica Thadi y Escuela 2-033 Fidela Maldonado de Cano:</u> cuentan con personal profesional capacitado para el aprovechamiento efectivo de dispositivos. Ambas instituciones realizarán propuestas pedagógicas superadoras de su uso.
+            </li>    
+        </ul>
+        
+        <script type="module">
+
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
+
+            new Swiper(".swiper", {
+                direction: "horizontal",
+                speed: 800,
+                loop: true,
+                
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                },
+
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                },
+
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "bullets",
+                    clickable: "true",
+                }
+        });
+        </script>
+        
+        <div class="containerSwiper">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide-1 slide-item img-1">
+                        <div class="textContainer">
+                            <h3 class="slider-title">Escuela de Comercio Martín Zapata</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-2 slide-item img-2">
+                        <div class="textContainer">
+                            <h3 class="slider-title">Escuela Guillermo Cano</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-3 slide-item img-3">
+                        <div class="textContainer">
+                            <h3 class="slider-title">Escuela Guillermo Cano</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-4 slide-item img-4">
+                        <div class="textContainer">
+                            <h3 class="slider-title">Escuela THADI</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-5 slide-item img-5">
+                        <div class="textContainer">
+                            <h3 class="slider-title">Escuela Técnica Ingeniero Gabriel del Mazo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        
+    </section>
+</body>
+</html>
+
