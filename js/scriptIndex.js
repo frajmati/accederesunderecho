@@ -112,8 +112,6 @@ cardThadi.addEventListener("click", () => {
     }
 })
 
-
-
 cruz.addEventListener("click", () => {
     
     layout.classList.remove("active");
@@ -123,6 +121,24 @@ cruz.addEventListener("click", () => {
         estudiantesUl.textContent = ""; 
     }, 400);
 })
+
+
+//TECLA ESCAPE
+
+// function handleKeyPress(event) {
+//     if (event.keyCode === 27) {
+//       layout.classList.remove("active");
+//         body.style.overflow = "auto";
+    
+//     setTimeout(() => {
+//         estudiantesUl.textContent = ""; 
+//     }, 400);
+//     }
+//   }
+
+// document.addEventListener('keydown', handleKeyPress);
+
+
 
 
 
