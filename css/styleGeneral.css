@@ -384,7 +384,7 @@ body.active {
 
 .banner {
     height: 50vh;
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../img/example.jpg);
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../img/discapacidad.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
