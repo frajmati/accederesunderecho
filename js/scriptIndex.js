@@ -34,7 +34,7 @@ const body = document.body;
 
 let facultadIntegrantes = ["Adriana Moreno (Secretaria de Extensión FED)","Viviana Andrea Leo (Directora del proyecto)","Alejandro Omar Guerra", "Carlos Omar Arancibia","Fernanda Ozollo","Javier Osimani"];
 
-let zapataIntegrantes = ["Matías Oliva (Estudiante)","Josefina Ravotti (Estudiante)","Juan Manuel Frajberg (Estudiante)", "Matías Frajberg (Estudiante)","Cristina Iriarte (Docente)","Cristian Gamba (Director)"];
+let zapataIntegrantes = ["Matías Oliva (Estudiante - Redes sociales)","Josefina Ravotti (Estudiante - Redes sociales)","Juan Manuel Frajberg (Estudiante - Diseño)", "Matías Frajberg (Estudiante - Programador)","Cristina Iriarte (Docente coordinadora)","Cristian Gamba (Director)"];
 
 let delMazoIntegrantes = [
     'Aguilera Gastón (Estudiante)',

@@ -215,16 +215,14 @@
 .estudiantes {
     background-color: #fff;
     color: #000;
-    padding: 30px 14px;
-    width: 300px;
     border-radius: 5px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .4);
 }
 
 .icon__cruz {
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: 0;
+    right: 0;
     font-size: 30px;
     cursor: pointer;
 }
@@ -236,20 +234,29 @@
 .estudiantes__img {
     height: 80px;
     position: absolute;
-    bottom: -30px;
-    right: -14px;
+    bottom: 0;
+    right: 0;
 }
 
 .estudiantes__h4 {
     font-size: 32px;
-    margin-bottom: 14px;
-    margin-top: -20px;
+    padding: 10px 10px 0 10px;
 }
 
 .estudiantes__ul {
     line-height: 40px;
     margin-left: 18px;
     list-style-type: disc;
+    padding: 10px 20px;
+    padding-bottom: 30px;
+    padding-right: 70px;
 }
 
-
+@media screen and (max-width: 900px) {
+    .estudiantes {
+        width: 95%;
+    }
+    .estudiantes__ul {
+        padding-right: 20px;
+    }
+}
